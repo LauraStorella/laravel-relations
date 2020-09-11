@@ -13,4 +13,5 @@
       <li>{{ $song->title}} | <strong>Genere:</strong> {{ $song->genre}} </li>
     </ul>
   @endforeach
+  <a href="{{route('albums.index')}}">Torna indietro</a>
 </div>
